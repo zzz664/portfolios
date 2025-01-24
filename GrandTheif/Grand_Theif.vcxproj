@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F95ACCD8-B0FC-4C31-9854-61FB821E0ED4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Grand_Theif</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>G:\이선우\Microsoft DirectX SDK %28June 2010%29\Include;G:\이선우\C++프로젝트\Grand_Theif\Grand_Theif\Fmod\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\이선우\Microsoft DirectX SDK %28June 2010%29\Lib\x86;G:\이선우\C++프로젝트\Grand_Theif\Grand_Theif\Fmod\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>G:\이선우\Microsoft DirectX SDK %28June 2010%29\Include;G:\이선우\C++프로젝트\Grand_Theif\Grand_Theif\Fmod\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\이선우\Microsoft DirectX SDK %28June 2010%29\Lib\x86;G:\이선우\C++프로젝트\Grand_Theif\Grand_Theif\Fmod\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CAnimation.cpp" />
+    <ClCompile Include="CCTV.cpp" />
+    <ClCompile Include="cctvCom.cpp" />
+    <ClCompile Include="coin.cpp" />
+    <ClCompile Include="CSprite.cpp" />
+    <ClCompile Include="CTimer.cpp" />
+    <ClCompile Include="Diamond.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="IObject.cpp" />
+    <ClCompile Include="key.cpp" />
+    <ClCompile Include="myFunction.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Police.cpp" />
+    <ClCompile Include="Raser.cpp" />
+    <ClCompile Include="raserCom.cpp" />
+    <ClCompile Include="Raser_point.cpp" />
+    <ClCompile Include="Raser_pointMgr.cpp" />
+    <ClCompile Include="Safe.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="Stage2.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="Stage4.cpp" />
+    <ClCompile Include="stage_key.cpp" />
+    <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="trap.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Vision.cpp" />
+    <ClCompile Include="WinFrame.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAnimation.h" />
+    <ClInclude Include="CCTV.h" />
+    <ClInclude Include="cctvCom.h" />
+    <ClInclude Include="coin.h" />
+    <ClInclude Include="CSprite.h" />
+    <ClInclude Include="CTimer.h" />
+    <ClInclude Include="Def.h" />
+    <ClInclude Include="Diamond.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="IObject.h" />
+    <ClInclude Include="IScene.h" />
+    <ClInclude Include="key.h" />
+    <ClInclude Include="myFunction.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Police.h" />
+    <ClInclude Include="Raser.h" />
+    <ClInclude Include="raserCom.h" />
+    <ClInclude Include="Raser_point.h" />
+    <ClInclude Include="Raser_pointMgr.h" />
+    <ClInclude Include="Safe.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Stage1.h" />
+    <ClInclude Include="Stage1_arr.h" />
+    <ClInclude Include="Stage1_RECT.h" />
+    <ClInclude Include="Stage2.h" />
+    <ClInclude Include="Stage2_arr.h" />
+    <ClInclude Include="Stage2_RECT.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="Stage3_arr.h" />
+    <ClInclude Include="Stage3_RECT.h" />
+    <ClInclude Include="Stage4.h" />
+    <ClInclude Include="Stage4_arr.h" />
+    <ClInclude Include="Stage4_RECT.h" />
+    <ClInclude Include="stage_key.h" />
+    <ClInclude Include="StartScene.h" />
+    <ClInclude Include="trap.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Vision.h" />
+    <ClInclude Include="WinFrame.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Grand_Theif">
+      <UniqueIdentifier>{98f9749a-b772-435a-9943-45a8aec8c21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\CAnimation">
+      <UniqueIdentifier>{49b72451-cc91-4ac2-b32d-1a7f6fdca72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\CSprite">
+      <UniqueIdentifier>{9100ee14-9185-4a7b-9d2a-a5988dc05144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Interface">
+      <UniqueIdentifier>{9b3b1747-2235-4fb4-a247-7ff61f69a978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Interface\IObject">
+      <UniqueIdentifier>{a2af99b7-a804-4bd2-bc8c-fe9865532d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Interface\IScene">
+      <UniqueIdentifier>{21c105da-99b7-4fb4-92db-7a26061a9c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object">
+      <UniqueIdentifier>{495b105b-5ca4-4af6-a9b4-83efec653931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\CTimer">
+      <UniqueIdentifier>{e52e1a73-aaed-4c2f-8fa9-876642795435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene">
+      <UniqueIdentifier>{4927710a-20c1-42ed-9e9d-1aa50f9a3a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Function">
+      <UniqueIdentifier>{8b3a4ccd-9003-4166-9454-58a1db0ffb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Window">
+      <UniqueIdentifier>{5ebab459-0053-4945-b38d-6510e6cad0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\SoundMgr">
+      <UniqueIdentifier>{ad5b6c0f-584a-460f-8324-43173492f302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene\StartScene">
+      <UniqueIdentifier>{ea5a4d36-f7b9-4822-b8fe-63118610e1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene\GameScene">
+      <UniqueIdentifier>{c2f6c0ff-60cc-4147-9210-662e7cd132a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene\EndScene">
+      <UniqueIdentifier>{9a9f6bd4-cfe6-445d-971a-196f7b884f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Obstacle">
+      <UniqueIdentifier>{2976326f-7897-4830-bc27-200c9f64abfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Player">
+      <UniqueIdentifier>{176be7be-cfea-486b-a6a1-585e34549558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Collision_RECT">
+      <UniqueIdentifier>{ea2ca3cb-d4d5-4322-97d4-5d1db89440dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Obstacle\Raser">
+      <UniqueIdentifier>{74af5005-35e3-44cd-8f1a-d768ddb66f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene\GameScene\Stage1">
+      <UniqueIdentifier>{8af580d6-b2b2-4672-9d76-6d1fe321acb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene\GameScene\Stage2">
+      <UniqueIdentifier>{4ef4d93d-bab5-434b-82ff-d63e721909b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene\GameScene\Stage3">
+      <UniqueIdentifier>{e34c76a2-e025-403a-94d1-316ef1fc42d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Scene\GameScene\Stage4">
+      <UniqueIdentifier>{e3521f56-95f6-4876-9912-837a496cf7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Player\Vision">
+      <UniqueIdentifier>{25b6049b-634f-41da-bf87-611e79a21476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Police">
+      <UniqueIdentifier>{a6d1ffd7-5715-4bb7-9283-b98ddc6c6d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Obstacle\CCTV">
+      <UniqueIdentifier>{3f7615d0-6299-49e3-a87d-b82469371979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Stage_Array">
+      <UniqueIdentifier>{453576f8-d15c-4bff-93fb-e78c271f8d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Item">
+      <UniqueIdentifier>{1caa50b9-b70d-41f0-b469-f73cf9e8a3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Computer">
+      <UniqueIdentifier>{c064fd8d-f2b6-44d1-aef4-8b108115ba4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Computer\cctvCom">
+      <UniqueIdentifier>{71f99f42-d92b-4e32-b11a-a138e68f1f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Computer\raserCom">
+      <UniqueIdentifier>{a52dbfa9-1d59-4967-9ccf-3756291bb5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\UI">
+      <UniqueIdentifier>{52ae1d63-abf1-496a-ae68-3e09fb2d03df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Item\coin">
+      <UniqueIdentifier>{c0b75a36-5faa-43ee-a416-631deb7fa90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Item\key">
+      <UniqueIdentifier>{4d40446b-2bc8-4642-a454-afda1f16fadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Item\trap">
+      <UniqueIdentifier>{ea8b8464-177b-4586-8cd5-32c63844b2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Item\stage_key">
+      <UniqueIdentifier>{29b58899-3d0a-4e3f-913d-2836f9a98d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Item\Diamond">
+      <UniqueIdentifier>{db4b93a5-5245-4e2b-988d-34185f0fa10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grand_Theif\Object\Safe">
+      <UniqueIdentifier>{c4e9cf7d-7ef4-4205-a85d-06a718f62a3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Grand_Theif</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Grand_Theif\CAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>Grand_Theif\CSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>Grand_Theif\Object\CTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="WinFrame.cpp">
+      <Filter>Grand_Theif\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="myFunction.cpp">
+      <Filter>Grand_Theif\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="IObject.cpp">
+      <Filter>Grand_Theif\Interface\IObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>Grand_Theif\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Grand_Theif\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Grand_Theif\Scene\EndScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Grand_Theif\Scene\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Raser.cpp">
+      <Filter>Grand_Theif\Object\Obstacle\Raser</Filter>
+    </ClCompile>
+    <ClCompile Include="Raser_point.cpp">
+      <Filter>Grand_Theif\Object\Obstacle\Raser</Filter>
+    </ClCompile>
+    <ClCompile Include="Raser_pointMgr.cpp">
+      <Filter>Grand_Theif\Object\Obstacle\Raser</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Grand_Theif\Scene\GameScene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>Grand_Theif\Scene\GameScene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>Grand_Theif\Scene\GameScene\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>Grand_Theif\Scene\GameScene\Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision.cpp">
+      <Filter>Grand_Theif\Object\Player\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Police.cpp">
+      <Filter>Grand_Theif\Object\Police</Filter>
+    </ClCompile>
+    <ClCompile Include="CCTV.cpp">
+      <Filter>Grand_Theif\Object\Obstacle\CCTV</Filter>
+    </ClCompile>
+    <ClCompile Include="cctvCom.cpp">
+      <Filter>Grand_Theif\Object\Computer\cctvCom</Filter>
+    </ClCompile>
+    <ClCompile Include="raserCom.cpp">
+      <Filter>Grand_Theif\Object\Computer\raserCom</Filter>
+    </ClCompile>
+    <ClCompile Include="coin.cpp">
+      <Filter>Grand_Theif\Object\Item\coin</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Grand_Theif\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>Grand_Theif\Object\Item\key</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_key.cpp">
+      <Filter>Grand_Theif\Object\Item\stage_key</Filter>
+    </ClCompile>
+    <ClCompile Include="trap.cpp">
+      <Filter>Grand_Theif\Object\Item\trap</Filter>
+    </ClCompile>
+    <ClCompile Include="Diamond.cpp">
+      <Filter>Grand_Theif\Object\Item\Diamond</Filter>
+    </ClCompile>
+    <ClCompile Include="Safe.cpp">
+      <Filter>Grand_Theif\Object\Safe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Grand_Theif\CAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>Grand_Theif\CSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Grand_Theif\Object\CTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>Grand_Theif\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFrame.h">
+      <Filter>Grand_Theif\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="myFunction.h">
+      <Filter>Grand_Theif\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>Grand_Theif\Interface\IObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Grand_Theif\Interface\IScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>Grand_Theif\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Grand_Theif\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Grand_Theif\Scene\EndScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Grand_Theif\Scene\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Raser.h">
+      <Filter>Grand_Theif\Object\Obstacle\Raser</Filter>
+    </ClInclude>
+    <ClInclude Include="Raser_point.h">
+      <Filter>Grand_Theif\Object\Obstacle\Raser</Filter>
+    </ClInclude>
+    <ClInclude Include="Raser_pointMgr.h">
+      <Filter>Grand_Theif\Object\Obstacle\Raser</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Grand_Theif\Scene\GameScene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>Grand_Theif\Scene\GameScene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>Grand_Theif\Scene\GameScene\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>Grand_Theif\Scene\GameScene\Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision.h">
+      <Filter>Grand_Theif\Object\Player\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Police.h">
+      <Filter>Grand_Theif\Object\Police</Filter>
+    </ClInclude>
+    <ClInclude Include="CCTV.h">
+      <Filter>Grand_Theif\Object\Obstacle\CCTV</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_RECT.h">
+      <Filter>Grand_Theif\Object\Collision_RECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_RECT.h">
+      <Filter>Grand_Theif\Object\Collision_RECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3_RECT.h">
+      <Filter>Grand_Theif\Object\Collision_RECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4_RECT.h">
+      <Filter>Grand_Theif\Object\Collision_RECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_arr.h">
+      <Filter>Grand_Theif\Object\Stage_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_arr.h">
+      <Filter>Grand_Theif\Object\Stage_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3_arr.h">
+      <Filter>Grand_Theif\Object\Stage_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4_arr.h">
+      <Filter>Grand_Theif\Object\Stage_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="cctvCom.h">
+      <Filter>Grand_Theif\Object\Computer\cctvCom</Filter>
+    </ClInclude>
+    <ClInclude Include="raserCom.h">
+      <Filter>Grand_Theif\Object\Computer\raserCom</Filter>
+    </ClInclude>
+    <ClInclude Include="coin.h">
+      <Filter>Grand_Theif\Object\Item\coin</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Grand_Theif\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>Grand_Theif\Object\Item\key</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_key.h">
+      <Filter>Grand_Theif\Object\Item\stage_key</Filter>
+    </ClInclude>
+    <ClInclude Include="trap.h">
+      <Filter>Grand_Theif\Object\Item\trap</Filter>
+    </ClInclude>
+    <ClInclude Include="Diamond.h">
+      <Filter>Grand_Theif\Object\Item\Diamond</Filter>
+    </ClInclude>
+    <ClInclude Include="Safe.h">
+      <Filter>Grand_Theif\Object\Safe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
